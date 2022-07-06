@@ -38,26 +38,27 @@ const BookForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label htmlFor = "title" >Titulo: </label>
-            <input type = "text" id = "title" name = "title" value = {form.title} onChange= {handleChange}></input>
-            <br/>
-            <br/>
-            <label htmlFor = "author" >Autor: </label>
-            <input type = "text" id = "author" name = "author" value = {form.author} onChange= {handleChange}></input>
-            <br/>
-            <br/>
-            <label htmlFor = "description" >Descripción: </label>
-            <input type = "text" id = "description" name = "description" value = {form.description} onChange= {handleChange}></input>
-            <br/>
-            <br/>
-            <label htmlFor = "subject" >Tema: </label>
-            <input type = "text" id = "subject" name = "subject" value = {form.subject} onChange= {handleChange}></input>
-            <br/>
-            <br/>
-            <label htmlFor = "year" >Año de Publicación: </label>
-            <input type = "text" id = "year" name = "year" value = {form.year} onChange= {handleChange}></input>
-            <br/>
-            <input type = "submit"></input>
+          <div className="mb-3">
+            <label htmlFor = "title" className="form-label">Titulo: </label>
+            <input className = "form-control" type = "text" id = "title" name = "title" value = {form.title} onChange= {handleChange}></input>
+          </div>
+          <div className="mb-3"> 
+            <label htmlFor = "author" className="form-label">Autor: </label>
+            <input className = "form-control" type = "text" id = "author" name = "author" value = {form.author} onChange= {handleChange}></input>
+          </div>
+          <div className="mb-3">
+            <label htmlFor = "description" className="form-label">Descripción: </label>
+            <input className = "form-control" type = "text" id = "description" name = "description" value = {form.description} onChange= {handleChange}></input>
+          </div>
+          <div className="mb-3">
+            <label htmlFor = "subject" className="form-label">Tema: </label>
+            <input className = "form-control" type = "text" id = "subject" name = "subject" value = {form.subject} onChange= {handleChange}></input>
+          </div>
+          <div className="mb-3">
+            <label htmlFor = "year" className="form-label">Año de Publicación: </label>
+            <input className = "form-control" type = "text" id = "year" name = "year" value = {form.year} onChange= {handleChange}></input>
+          </div>
+            <input class="btn btn-primary" type = "submit"></input>
         </form>
     )
 }
