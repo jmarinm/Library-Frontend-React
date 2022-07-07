@@ -3,7 +3,7 @@ import Book from './Book'
 import BookForm from './BookForm'
 
 
-const API_URL = 'https://shark.ontrack.global';
+const API_URL = 'https://shark.ontrack.global/api';
 //const API_URL = 'http://localhost:8080';
 
 const App = () => {

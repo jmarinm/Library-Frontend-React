@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 const BookForm = () => {
-    const API_URL = 'https://shark.ontrack.global';
+    const API_URL = 'https://shark.ontrack.global/api';
     const [form, setForm] = useState({author: '', title:'', description: '', subject: '', year: ''});
 
     const handleChange = (e) =>{
