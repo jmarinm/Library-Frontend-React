@@ -1,3 +1,8 @@
+#About this repository
+
+This project is a simple React application, that allows to display information about books, and also create new ones. All this by communicating with a backend existing in this [repository](https://github.com/jmarinm/api)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
